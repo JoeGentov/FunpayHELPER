@@ -1,0 +1,23 @@
+
+/* Чуть аккуратнее отрисовка, остаёмся в ч/б */
+* { font-family: 'Inter', 'Segoe UI', 'Roboto', 'DejaVu Sans'; }
+QWidget { background: #ffffff; color: #000000; }
+QLineEdit, QTextEdit, QPlainTextEdit, QComboBox, QSpinBox, QDoubleSpinBox {
+  background: #ffffff; color: #000000; border: 1px solid #000000; border-radius: 12px; padding: 8px;
+}
+QTableView {
+  background: #ffffff; color: #000000; gridline-color: #000; border: 1px solid #000; border-radius: 12px;
+  selection-background-color: #111111; selection-color: #ffffff;
+}
+QHeaderView::section { background: #000000; color: #ffffff; padding: 6px; border: none; }
+QPushButton {
+  background: #000000; color: #ffffff; border: 1px solid #000000; border-radius: 14px; padding: 8px 14px;
+}
+QPushButton:hover { background: #111111; }
+QPushButton:pressed { background: #222222; }
+QGroupBox { border: 1px solid #000000; border-radius: 16px; margin-top: 24px; }
+QGroupBox::title { subcontrol-origin: margin; left: 10px; padding: 0 4px; }
+QTabWidget::pane { border: 1px solid #000000; border-radius: 16px; }
+QTabBar::tab { background: #000000; color:#ffffff; border: 1px solid #000000; border-radius: 12px; padding: 8px 12px; margin: 6px; }
+QTabBar::tab:selected { background:#111111; }
+QTabBar::tab:!selected { background:#333333; }
